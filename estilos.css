@@ -7,6 +7,21 @@
     display: grid;
     grid-template-areas:
         "menu_nav menu_nav menu_nav"
+        "contenido contenido contenido"
+        "contenido contenido contenido"
+        "footer footer footer";
+        grid-template-rows: 5% 45% 45% 5%;
+        grid-template-columns: 40% 40% 20%;
+        row-gap: auto;
+        column-gap: auto;
+        height: 100%;
+
+}
+
+.grilla-1 {
+    display: grid;
+    grid-template-areas:
+        "menu_nav menu_nav menu_nav"
         "contenido contenido extra_cont"
         "contenido contenido extra_cont"
         "footer footer footer";
@@ -68,3 +83,4 @@ footer {
     background-color: bisque;
     grid-area: footer;
 }
+
